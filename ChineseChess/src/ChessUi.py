@@ -3,8 +3,6 @@ from pygame.locals import *
 from pygame.sprite import Sprite
 from ChessEngine import *
 
-
-
 class Board():
     def __init__(self):
         self.TOP = 3
@@ -416,5 +414,3 @@ while True:
     input(pygame.event.get(),board,boardWindow,chessEngine)
     boardWindow.drawBoard(board,boardPhase)
     pygame.display.flip()
-   
-   
