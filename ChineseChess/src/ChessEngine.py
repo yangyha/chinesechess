@@ -285,14 +285,3 @@ class ChessEngine():
         self.__mainSearch(boardPhase,board)
         return self.computerMove
                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
